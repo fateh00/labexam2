@@ -24,14 +24,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is a site for lab exam  
 github: fateh00.github.io
 
-header_image: assets/myprofile1.jpg
+header_image: assets/myprofile2.png
 
 google_analytics:
 comments: false
 disqus: salam
 
 author: Mojtaba Asadi
-author_bio: >
+author_bio: >-
   Hi, I am Mohammad Mojtaba Asadi, who has just entered the field of computer
   And I was able to do interesting things in a short time
   I have not yet reached the place I want to, but I will try
