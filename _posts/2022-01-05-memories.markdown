@@ -1,33 +1,21 @@
 ---
 layout: post
-title: "The memories"
+title: "سه تااز بهترين و بدترين خاطرات"
 date: 2022-01-05
 tags:
 author: Mojtaba Asadi
 avatar: assets/img/common/andrew-avatar.png
 category: Example Posts
 ---
-
-سلام
+<p>سلام</p>
 قرار شد كه در اين مكان سه تا از بهترين و بدترين خاطراتم را در اين ترم بنويسم
-1)اولين خاطره كه برايتان تعريف مي كنم جزو بهترين خاطرات بنده در اين ترم است 
+<h1>اولين خاطره كه برايتان تعريف مي كنم جزو بهترين خاطرات بنده در اين ترم است 
 كه مربوط مي شود به يك پروژه بسيار سخت به نام جنگو 
 پر از چالش و پر از استرس 
-ولي به اين علت كه اين پروژه نتيجه داد اين قضيه تبديل شد به بهترين خاطره من
-2)
+</h1>ولي به اين علت كه اين پروژه نتيجه داد اين قضيه تبديل شد به بهترين خاطره من
+<h2>دومين خاطره بر ميگردد به اينكه من زمان تكليف رياضي را اشتباه متوجه شده بودم او بسيار تلاش كردم كه آن را حل كنم اما وقتي حل آ« تمام شد فهميدم اي واي بر من وقت تمام شده است.</h2>
 
-Jekyll also offers powerful support for code snippets:
+<h3>سومين خاطره بر مي گردد به امتحان امروز كه فكر مي كردم بتوانم خيلي بهتر عمل كنم اما
+با خطا هاي زيادي رو به رو شدم و از آنجايي كه برخي كار ها را مرور نكرده بودم نتوانستتك كار هايي كه قبلا آن را انجام مي دادم را تكرار كنم</h3>
 
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-<!-- 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk]. -->
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
