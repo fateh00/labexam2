@@ -3,18 +3,18 @@ layout: post
 title: "The memories"
 date: 2022-01-05
 tags:
-  - 
-  - 
 author: Mojtaba Asadi
 avatar: assets/img/common/andrew-avatar.png
 category: Example Posts
 ---
 
 سلام
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+قرار شد كه در اين مكان سه تا از بهترين و بدترين خاطراتم را در اين ترم بنويسم
+1)اولين خاطره كه برايتان تعريف مي كنم جزو بهترين خاطرات بنده در اين ترم است 
+كه مربوط مي شود به يك پروژه بسيار سخت به نام جنگو 
+پر از چالش و پر از استرس 
+ولي به اين علت كه اين پروژه نتيجه داد اين قضيه تبديل شد به بهترين خاطره من
+2)
 
 Jekyll also offers powerful support for code snippets:
 
