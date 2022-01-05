@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is a site for lab exam  
 github: fateh00.github.io
 
-header_image: assets/myprofile2.png
+header_image: assets/myprofile1.png
 
 google_analytics:
 comments: false
@@ -36,7 +36,7 @@ author_bio: >-
   And I was able to do interesting things in a short time
   I have not yet reached the place I want to, but I will try
   I reduce my distance with it every day
-author_pic: assets/myprofile2.png
+author_pic: assets/myprofile1.png
 paginate: 4
 paginate_path: "/:num/"
 
