@@ -19,4 +19,4 @@ category: Example Posts
 با خطا هاي زيادي رو به رو شدم و از آنجايي كه برخي كار ها را مرور نكرده بودم نتوانستتك كار هايي كه قبلا آن را انجام مي دادم را تكرار كنم</h3>
 
 
-<img src="assets/myprofile1.png">
+<img src="assets/myprofile1.png"></img>
