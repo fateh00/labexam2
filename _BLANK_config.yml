@@ -8,13 +8,13 @@ repository:
 twitter:
 github:
 
-header_image: assets/profile.png
+header_image: assets/myprofile2.png
 
 google_analytics:
 comments: false
 disqus:
 
-author:
+author: mojtaba
 author_bio: >-
 
 author_pic:
@@ -43,7 +43,7 @@ defaults:
     values:
       layout: "post"
       author:
-      avatar: assets/profile-sm.png
+      avatar: assets/myprofile2.png
   - scope:
       path: ""
       type: notes

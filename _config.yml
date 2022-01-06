@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is a site for lab exam  
 github: fateh00.github.io
 
-header_image: assets/profile.png
+header_image: assets/myprofile2.png
 
 google_analytics:
 comments: false
