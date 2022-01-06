@@ -7,16 +7,104 @@ author: Mojtaba Asadi
 avatar: assets/img/common/andrew-avatar.png
 category: Example Posts
 ---
-<p>سلام</p>
-قرار شد كه در اين مكان سه تا از بهترين و بدترين خاطراتم را در اين ترم بنويسم
-<h1>اولين خاطره كه برايتان تعريف مي كنم جزو بهترين خاطرات بنده در اين ترم است 
-كه مربوط مي شود به يك پروژه بسيار سخت به نام جنگو
-پر از چالش و پر از استرس
-</h1>ولي به اين علت كه اين پروژه نتيجه داد اين قضيه تبديل شد به بهترين خاطره من
-<h2>دومين خاطره بر ميگردد به اينكه من زمان تكليف رياضي را اشتباه متوجه شده بودم او بسيار تلاش كردم كه آن را حل كنم اما وقتي حل آ« تمام شد فهميدم اي واي بر من وقت تمام شده است.</h2>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <title>Learn</title>
+    {% load static %}
+    <style>
+        body{
+            background-image: url("{% static 'back6.jpg' %}");
+            background-position: center;
+            background-size: 100% 100%;
+        }
+        span2{
+                position: relative;
+            left: -80%;
+            top: 85%;
+            display: inline-flex;
+            width: 180px;
+            height: 55px;
+            margin: 0 15px;
+            perspective: 1000px;
+            
+            }
+            span2 a{
+            font-size: 19px;
+            letter-spacing: 1px;
+            transform-style: preserve-3d;
+            transform: translateZ(-25px);
+            transition: transform .25s;
+            font-family: 'Montserrat', sans-serif;
+            
+            }
+            span2 a:before,
+            span2 a:after{
+            position: absolute;
+            content: "RETURN";
+            height: 55px;
+            width: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 5px solid black;
+            box-sizing: border-box;
+            border-radius: 5px;
+            
+            }
+            span2 a:before{
+            color: #fff;
+            background: #000;
+            transform: rotateY(0deg) translateZ(25px);
+            }
+            span2 a:after{
+            color: #000;
+            transform: rotateX(90deg) translateZ(25px);
+            }
+            span2 a:hover{
+            transform: translateZ(-25px) rotateX(-90deg);
+            }
+            .submit{
+            padding:40px;
+            font-size:35px;
+            position: absolute;
+            left: 43%;
+            top: 70%;
+            display: inline-flex;
+            height: 100px;
+            width: 200px;
+            align-items: center;
+            justify-content: space-evenly;
+            border-radius: 5px;
+            padding: 20px 15px;
+            box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+            }
+    </style>
+</head>
 
-<h3>سومين خاطره بر مي گردد به امتحان امروز كه فكر مي كردم بتوانم خيلي بهتر عمل كنم اما
-با خطا هاي زيادي رو به رو شدم و از آنجايي كه برخي كار ها را مرور نكرده بودم نتوانستتك كار هايي كه قبلا آن را انجام مي دادم را تكرار كنم</h3>
+
+<body>
+    <p>سلام</p>
+    <h1>قرار شد كه در اين مكان سه تا از بهترين و بدترين خاطراتم را در اين ترم بنويسم</h1>
+    <h2>اولين خاطره كه برايتان تعريف مي كنم جزو بهترين خاطرات بنده در اين ترم است 
+    كه مربوط مي شود به يك پروژه بسيار سخت به نام جنگو
+    پر از چالش و پر از استرس
+    ولي به اين علت كه اين پروژه نتيجه داد اين قضيه تبديل شد به بهترين خاطره من
+    دومين خاطره بر ميگردد به اينكه من زمان تكليف رياضي را اشتباه متوجه شده بودم او بسيار تلاش كردم كه آن را حل كنم اما وقتي حل آ« تمام شد فهميدم اي واي بر من وقت تمام شده است.
+    سومين خاطره بر مي گردد به امتحان امروز كه فكر مي كردم بتوانم خيلي بهتر عمل كنم اما
+    با خطا هاي زيادي رو به رو شدم و از آنجايي كه برخي كار ها را مرور نكرده بودم نتوانستتك كار هايي كه قبلا آن را انجام مي دادم را تكرار كنم</h2>
 
 
-<img src="assets/1.png"></img>
+    <img src="assets/1.png"></img>
+</body>
